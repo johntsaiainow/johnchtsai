@@ -1,120 +1,147 @@
-# I Build Systems. I Preserve Knowledge. I Engineer What Comes Next.
+<div align="center">
+
+# I Engineer the Present. Explore the Future. Rebuild the Past.
 
 ### John Cheng-Hung Tsai
-**Electrical Engineering · Embedded Systems · Firmware · Linux · Computer Architecture · Engineering Education**
 
-> **A computer is never just a computer.** It begins as electricity moving through circuits. It becomes logic, firmware, an operating system, a network, a product, and eventually something that changes how people live. I have spent more than two decades working across those boundaries—and I am still learning what lies beyond them.
+**Electrical & Embedded Systems Engineer · Firmware · Linux · Hardware–Software Integration**
+
+*Three flagship projects. Three dimensions of engineering. One lifelong pursuit.*
+
+[Explore Applied Engineering](https://github.com/johntsaiainow) · [Enter the FPGA Museum](https://github.com/retrofpga-computer-museum) · [Explore Engineering Education](https://github.com/johnschoolworks)
+
+</div>
 
 ---
 
-## The Engineer Behind the Code
+## Engineering Is More Than a Job Title
 
-I did not build my career around a single programming language, processor, or job title.
+A computer begins long before a screen lights up. It begins with electrons, circuits, timing, and logic. It becomes firmware, a network, a machine, and eventually a tool that someone trusts with a real task.
 
-My work has crossed IT infrastructure, consumer electronics, manufacturing, industrial control, and embedded systems. I have worked where software meets sensors, where firmware meets physical machinery, and where an elegant design must survive the realities of deployment, diagnosis, and production.
+I have spent more than twenty years working across those boundaries: IT infrastructure, consumer electronics, manufacturing, industrial control, embedded firmware, and systems integration. Along the way, I learned that the most interesting engineering problems rarely respect the lines between disciplines.
 
-Over time, one conviction has become central to my work:
+A sensor does not care whether its failure belongs to hardware or software. A production machine does not care which team owns the bug. A computer architecture cannot be understood by reading an instruction set alone.
 
-**To engineer a system well, you must be willing to understand the layers beneath it—and the people who will depend on it.**
+**To build reliable systems, I believe an engineer must be willing to follow a problem all the way down—and all the way through.**
 
-That belief is why my GitHub is not one tidy collection of similar projects. It is a record of exploration: control firmware, circuit boards, Linux tools, AI-connected devices, computer architecture, interpreters, and teaching materials. Each project asks a different question. Together, they tell one story.
+My GitHub is a record of that pursuit. If you have only a few minutes, start with three projects.
 
-## Chapter I — When Code Touches the Physical World
+---
 
-A line of embedded code is not merely an instruction. It can switch a valve, read a sensor, control a machine, or determine whether a device recovers from failure.
+# I. DaVinci — Engineering the Physical World
 
-That is the world in which I have spent much of my engineering career: the boundary between electrical behavior and software decisions.
+### *When software must answer to reality.*
 
-- **[DaVinci Controller Firmware](https://github.com/johntsaiainow/davinciarduino2025)** — Embedded control work connected to the DrinkStation DaVinci beverage dispensing system.
-- **[AquaMesh Bootloader Bridge](https://github.com/johntsaiainow/AquaMesh-Basic-Bootloader-Bridge)** — An ESP32-to-STM32 firmware update bridge, addressing the practical problem of maintaining deployed embedded devices.
-- **[ESP32 Communication Module PCB](https://github.com/johntsaiainow/ESP32-Communication-Module-PCB)** — Hardware design for communication and control in embedded systems.
-- **[Small PCB Design Collection](https://github.com/johntsaiainow/small-pcb-design-collection)** — KiCad designs that carry ideas from schematics toward physical boards.
+[**Explore the DaVinci Controller Firmware →**](https://github.com/johntsaiainow/davinciarduino2025)
 
-**What this chapter demonstrates:** embedded C/C++, hardware/software integration, device communication, control systems, and the engineering discipline needed when software interacts with real hardware.
+In an industrial control system, code does not stay inside a computer. It becomes the action of a pump, the state of a valve, a response to a sensor, or a decision made under imperfect physical conditions.
 
-## Chapter II — Giving Machines a Voice, and Engineers Better Tools
+The **DaVinci 20 Plus beverage dispensing controller** represents the part of my engineering career where hardware, firmware, and the practical realities of a manufactured product meet.
 
-The next generation of computing will not live only in data centers. It will also appear in small devices, workshops, laboratories, and everyday products. Making those systems useful requires more than attaching an AI label: it requires dependable hardware, interfaces, networking, and software infrastructure.
+Its public repository provides a starting point for examining embedded C++ controller firmware. The wider engineering questions are the ones I care about most: How do we connect software decisions to physical behavior? How do we diagnose failures that cross electrical and software boundaries? How do we make a system understandable enough to test, maintain, and improve?
 
-- **[ESP32 Local AI Chatbot](https://github.com/johntsaiainow/ESP32-Local-Ai-Chatbot)** — Exploring local AI interaction through an embedded device.
-- **[AI-Now Local ESP32 Chatbots PCB](https://github.com/johntsaiainow/AI-Now-Local-ESP32-Chatbots-PCB)** — PCB designs for embedded AI voice-terminal concepts.
-- **[Raspberry Pi Agent MP3 Player](https://github.com/johntsaiainow/pi-agent-mp3-player)** — Embedded Linux, Yocto, Qt, and a development workflow involving AI agents.
-- **[eZ8 Linux Native Toolchain](https://github.com/johnschoolworks/ez8-linux-native)** — An experimental native Linux assembler, linker, and firmware tooling effort for Zilog eZ8.
-- **[SPL TUI Logger](https://github.com/johntsaiainow/SPL-TUI-Logger)** — A terminal-oriented Linux audio measurement and logging utility.
+**Explore the surrounding engineering work:** [ESP32 Communication Module PCB](https://github.com/johntsaiainow/ESP32-Communication-Module-PCB) · [AquaMesh ESP32-to-STM32 Bootloader Bridge](https://github.com/johntsaiainow/AquaMesh-Basic-Bootloader-Bridge) · [KiCad PCB Collection](https://github.com/johntsaiainow/small-pcb-design-collection)
 
-I prefer tools that make engineering more accessible, reproducible, and inspectable. That is also why Linux and open development workflows appear throughout my work.
+**Engineering lens:** Embedded C/C++ · Control systems · Device interfaces · Hardware/firmware debugging · Product integration
 
-## Chapter III — Rebuilding the Past to Understand the Future
+> **My first principle:** A design is not finished when the code compiles. It must make sense in the physical world.
 
-Modern computing can seem almost magical. But every abstraction has a history: registers, buses, instruction sets, memory maps, display timing, and the patient work of generations of engineers.
+---
 
-I created the **[RetroFPGA Computer Museum](https://github.com/retrofpga-computer-museum)** around a simple idea:
+# II. Local AI Chatbot — Engineering the Next Interface
 
-> **Rebuild the past. Understand the present. Inspire the future.**
+### *When small machines begin to listen, respond, and collaborate.*
 
-Instead of treating historic computers as objects behind glass, I want to explore how their architectures can be reconstructed, simulated, tested, and taught with FPGA technology.
+[**Explore the ESP32 Local AI Chatbot →**](https://github.com/johntsaiainow/ESP32-Local-Ai-Chatbot)
 
-- **[RetroFPGA-Basys3](https://github.com/retrofpga-computer-museum/RetroFPGA-Basys3)** — A SystemVerilog learning and development project centered on the Digilent Basys 3 FPGA board.
-- **[SAP1-Basys3](https://github.com/johntsaiainow/SAP1-Basys3)** — A separate exploration of a simple computer architecture on FPGA.
-- **[RetroFPGA Computer Museum repository](https://github.com/retrofpga-computer-museum/RetroFPGA-Computer-Museum)** — The museum's broader educational and preservation mission.
+For decades, embedded devices have measured, controlled, and reported. The next challenge is to make interaction with those devices more natural—without losing the engineering discipline that makes them dependable.
 
-The work is ongoing. Some components are implemented and tested; other architectures and features remain on the roadmap. The point is not to claim a finished museum overnight. It is to build a foundation that can grow, be verified, and be understood by others.
+The **ESP32 Local AI Chatbot** explores the intersection of microcontrollers, connectivity, voice-oriented interaction, and AI software. It is not merely an experiment in attaching a model to a board. It is an exploration of the entire path between a human request and an embedded system's response.
 
-## Chapter IV — Knowledge Is Worth More When It Can Be Passed On
+That path raises practical questions: How should hardware and software divide responsibilities? What happens when connectivity becomes unreliable? How do we design, test, and debug an interaction that crosses device firmware and higher-level services?
 
-I believe engineering education should outlive the classroom in which it began.
+The project also extends into physical design through the [AI-Now Local ESP32 Chatbots PCB family](https://github.com/johntsaiainow/AI-Now-Local-ESP32-Chatbots-PCB).
 
-That is why I preserve and share teaching materials, build interpreters and software projects, and continue studying even after decades in industry. Learning is not a phase before a career; for me, it is part of the career itself.
+**Engineering lens:** ESP32 · Embedded integration · Python · Connectivity · AI-enabled device architecture · PCB development
 
-- **[Mt. SAC Electronics 74](https://github.com/johntsaiainow/MtSAC-Electronics-74)** — Preserving a microcontroller programming laboratory manual as a resource for future learners.
-- **[Berkeley Scheme](https://github.com/johnschoolworks/berkeley-scheme)** — Exploring language implementation through interpreters and core computer science concepts.
-- **[SOSCSRPG MonoGame](https://github.com/johnschoolworks/SOSCSRPGMonoGame)** and **[SuperAdventure MonoGame](https://github.com/johnschoolworks/SuperAdventureMonoGame)** — Software engineering and learning through C# game development.
-- **[John Schoolworks](https://github.com/johnschoolworks)** — A home for educational code, experiments, and software projects.
+> **My second principle:** The future of AI is not only in data centers. It is also at the edge, where computation meets the everyday world.
 
-There is a particular kind of satisfaction in making a system work. There is another in documenting it clearly enough that someone else can learn from it, challenge it, or carry it further.
+---
 
-## Chapter V — The Work Ahead
+# III. RetroFPGA Computer Museum — Engineering Across Time
 
-I am interested in engineering problems that demand more than a narrow specialization: embedded firmware, hardware validation, automated test systems, Linux platforms, electronics, and complex system integration.
+### *Rebuild the past. Understand the present. Inspire the future.*
 
-I bring a systems perspective shaped by more than twenty years across multiple industries, and a habit of returning to fundamentals when problems become difficult. I care about understanding failures, building tools that reveal what a system is actually doing, and connecting design decisions to physical results.
+[**Enter the RetroFPGA Computer Museum →**](https://github.com/retrofpga-computer-museum)
 
-I am especially drawn to work where **reliability matters, learning never stops, and engineering serves a purpose beyond the next release.**
+A modern computer hides an extraordinary history beneath its abstractions: gates, registers, buses, clocks, memory, instruction sets, and the ingenuity of engineers who made every layer possible.
 
-### If You're Evaluating My Work
+I created the **RetroFPGA Computer Museum** to explore a different kind of preservation. Instead of keeping historic computing concepts only in books or behind glass, I want to reconstruct them as working, inspectable digital systems that students and engineers can study.
 
-Rather than reading every repository, start with the chapter closest to your engineering challenge:
+The [**RetroFPGA-Basys3**](https://github.com/retrofpga-computer-museum/RetroFPGA-Basys3) project uses SystemVerilog and the Digilent Basys 3 FPGA platform as a foundation for digital logic, video output, control interfaces, and a growing collection of computer architectures. My separate [**SAP1-Basys3**](https://github.com/johntsaiainow/SAP1-Basys3) repository explores a simple computer architecture and calculator-oriented applications.
 
-| Your focus | Start here |
+**This is an evolving engineering and educational effort, not a claim that every planned computer has already been implemented.** The repositories and their tests are the source of truth for what currently works.
+
+**Engineering lens:** SystemVerilog · FPGA · Digital logic · CPU architecture · Simulation and regression testing · Engineering education
+
+> **My third principle:** The best way to preserve engineering knowledge is to make it possible for the next generation to rebuild it.
+
+---
+
+## Three Projects. One Engineering Philosophy.
+
+**DaVinci asks:** Can I make software work reliably with real hardware?
+
+**Local AI Chatbot asks:** Can I connect that hardware to a new generation of intelligent interfaces?
+
+**RetroFPGA asks:** Do I understand computing deeply enough to reconstruct and teach its foundations?
+
+These are not three unrelated hobbies. They are three views of the same discipline—**engineering the present, exploring what comes next, and keeping the knowledge of the past alive.**
+
+---
+
+## For Engineering Managers and Technical Interviewers
+
+I am interested in engineering roles where firmware, electronics, testing, Linux, and system integration intersect—especially where reliability and clear technical reasoning matter.
+
+If you are evaluating my work for a specific role, here is a faster route into the code:
+
+| Your engineering challenge | Where to start |
 | --- | --- |
-| **Firmware / Embedded Systems** | [DaVinci](https://github.com/johntsaiainow/davinciarduino2025) · [AquaMesh](https://github.com/johntsaiainow/AquaMesh-Basic-Bootloader-Bridge) |
-| **Hardware Test / Validation** | [DaVinci](https://github.com/johntsaiainow/davinciarduino2025) · [AquaMesh](https://github.com/johntsaiainow/AquaMesh-Basic-Bootloader-Bridge) · [RetroFPGA](https://github.com/retrofpga-computer-museum/RetroFPGA-Basys3) |
-| **Electrical / PCB Design** | [ESP32 Communication PCB](https://github.com/johntsaiainow/ESP32-Communication-Module-PCB) · [PCB Collection](https://github.com/johntsaiainow/small-pcb-design-collection) |
-| **Linux / Developer Tooling** | [eZ8 Toolchain](https://github.com/johnschoolworks/ez8-linux-native) · [Raspberry Pi Agent](https://github.com/johntsaiainow/pi-agent-mp3-player) |
-| **FPGA / Computer Architecture** | [RetroFPGA-Basys3](https://github.com/retrofpga-computer-museum/RetroFPGA-Basys3) · [SAP1-Basys3](https://github.com/johntsaiainow/SAP1-Basys3) |
-| **Software / Computer Science** | [Berkeley Scheme](https://github.com/johnschoolworks/berkeley-scheme) · [SOSCSRPG](https://github.com/johnschoolworks/SOSCSRPGMonoGame) |
+| Embedded firmware and physical control | [DaVinci](https://github.com/johntsaiainow/davinciarduino2025) · [AquaMesh Bootloader Bridge](https://github.com/johntsaiainow/AquaMesh-Basic-Bootloader-Bridge) |
+| Hardware/software test and validation | [DaVinci](https://github.com/johntsaiainow/davinciarduino2025) · [RetroFPGA-Basys3](https://github.com/retrofpga-computer-museum/RetroFPGA-Basys3) |
+| Connected embedded devices and AI | [ESP32 Local AI Chatbot](https://github.com/johntsaiainow/ESP32-Local-Ai-Chatbot) · [AI Chatbot PCB](https://github.com/johntsaiainow/AI-Now-Local-ESP32-Chatbots-PCB) |
+| FPGA and computer architecture | [RetroFPGA-Basys3](https://github.com/retrofpga-computer-museum/RetroFPGA-Basys3) · [SAP1-Basys3](https://github.com/johntsaiainow/SAP1-Basys3) |
+| Embedded Linux and development tools | [Raspberry Pi Agent MP3 Player](https://github.com/johntsaiainow/pi-agent-mp3-player) · [eZ8 Linux Native Toolchain](https://github.com/johnschoolworks/ez8-linux-native) |
 
-*These are project entry points, not claims of experience with particular proprietary HIL tools or aerospace certifications. For current implementation status, please inspect the individual repositories, source files, and tests.*
-
-## Four Doors Into One Engineering Journey
-
-**[Professional & Applied Engineering — johntsaiainow](https://github.com/johntsaiainow)**  
-Firmware, electronics, PCB design, embedded Linux, AI devices, and practical engineering tools.
-
-**[RetroFPGA Computer Museum](https://github.com/retrofpga-computer-museum)**  
-Computer architecture, FPGA reconstruction, digital logic, and preservation of computing history.
-
-**[John Schoolworks](https://github.com/johnschoolworks)** · **[Browse all repositories](https://github.com/orgs/johnschoolworks/repositories)**  
-Compilers, interpreters, software development, and educational projects.
-
-**[This Portfolio — johnchtsai](https://github.com/johntsaiainow/johnchtsai)**  
-The starting point for the whole journey.
+*Project links show public work, not claims of proprietary platform expertise, production certifications, or unverified performance metrics. Implementation maturity varies by repository.*
 
 ---
 
-### Let's Build Something That Matters
+## Beyond the Three Pillars: Engineering as a Shared Inheritance
+
+My career has also been a continuing education. I study, experiment, document, and publish because I believe knowledge grows more valuable when someone else can learn from it.
+
+That commitment appears in the [Mt. SAC Electronics 74 materials](https://github.com/johntsaiainow/MtSAC-Electronics-74), the [Berkeley Scheme interpreter project](https://github.com/johnschoolworks/berkeley-scheme), and [SOSCSRPG MonoGame](https://github.com/johnschoolworks/SOSCSRPGMonoGame).
+
+These projects are not substitutes for professional engineering experience. They are evidence of something I intend to keep doing throughout my career: learning in public and leaving useful work behind.
+
+### Four Doors Into My GitHub
+
+- **[Applied Engineering — johntsaiainow](https://github.com/johntsaiainow)** — Embedded systems, electronics, Linux, AI devices, and practical engineering tools.
+- **[RetroFPGA Computer Museum](https://github.com/retrofpga-computer-museum)** — FPGA-based reconstruction, computer architecture, and computing history.
+- **[John Schoolworks](https://github.com/johnschoolworks)** · **[Repository Index](https://github.com/orgs/johnschoolworks/repositories)** — Interpreters, software development, and educational experiments.
+- **[This Professional Portfolio — johnchtsai](https://github.com/johntsaiainow/johnchtsai)** — The starting point for this engineering journey.
+
+---
+
+<div align="center">
+
+### Let's Build Something That Matters.
 
 **John Cheng-Hung Tsai**  
 [GitHub](https://github.com/johntsaiainow) · [Email](mailto:john@johntsai.online)
 
-> *Technology moves forward. Knowledge should not be left behind.*
+*Technology moves forward. Knowledge should not be left behind.*
+
+</div>
