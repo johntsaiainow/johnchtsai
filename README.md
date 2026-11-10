@@ -24,7 +24,7 @@ A sensor does not care whether its failure belongs to hardware or software. A pr
 
 **To build reliable systems, I believe an engineer must be willing to follow a problem all the way down—and all the way through.**
 
-My GitHub is a record of that pursuit. If you have only a few minutes, start with three projects.
+My GitHub is a record of that pursuit. If you have only a few minutes, start with three projects. Each has a dedicated engineering case study: the context, design questions, evidence, and the work still to be verified.
 
 ---
 
@@ -32,7 +32,8 @@ My GitHub is a record of that pursuit. If you have only a few minutes, start wit
 
 ### *When software must answer to reality.*
 
-[**Explore the DaVinci Controller Firmware →**](https://github.com/johntsaiainow/davinciarduino2025)
+[**Read the DaVinci Engineering Case Study →**](case-studies/01-davinci.md)  
+[View source code](https://github.com/johntsaiainow/davinciarduino2025)
 
 In an industrial control system, code does not stay inside a computer. It becomes the action of a pump, the state of a valve, a response to a sensor, or a decision made under imperfect physical conditions.
 
@@ -52,7 +53,8 @@ Its public repository provides a starting point for examining embedded C++ contr
 
 ### *When small machines begin to listen, respond, and collaborate.*
 
-[**Explore the ESP32 Local AI Chatbot →**](https://github.com/johntsaiainow/ESP32-Local-Ai-Chatbot)
+[**Read the Local AI Chatbot Engineering Case Study →**](case-studies/02-local-ai-chatbot.md)  
+[View source code](https://github.com/johntsaiainow/ESP32-Local-Ai-Chatbot)
 
 For decades, embedded devices have measured, controlled, and reported. The next challenge is to make interaction with those devices more natural—without losing the engineering discipline that makes them dependable.
 
@@ -72,7 +74,8 @@ The project also extends into physical design through the [AI-Now Local ESP32 Ch
 
 ### *Rebuild the past. Understand the present. Inspire the future.*
 
-[**Enter the RetroFPGA Computer Museum →**](https://github.com/retrofpga-computer-museum)
+[**Read the RetroFPGA Engineering Case Study →**](case-studies/03-retrofpga-museum.md)  
+[Enter the museum](https://github.com/retrofpga-computer-museum)
 
 A modern computer hides an extraordinary history beneath its abstractions: gates, registers, buses, clocks, memory, instruction sets, and the ingenuity of engineers who made every layer possible.
 
