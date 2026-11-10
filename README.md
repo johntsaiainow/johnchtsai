@@ -103,6 +103,25 @@ These are not three unrelated hobbies. They are three views of the same discipli
 
 ---
 
+## Beyond the Three Pillars — AI-NOW: Engineering for Reliable Delivery
+
+### *A system is not truly delivered until its release can be verified—and recovered.*
+
+[**Read the AI-NOW CI/CD Engineering Case Study →**](case-studies/04-ai-now-reliable-delivery.md)  
+[Explore AI-NOW's website engineering repository](https://github.com/AI-Now-Inc/ai-now-web)
+
+My three flagship projects explore physical control, intelligent interfaces, and computing foundations. But engineering has another responsibility: **getting working systems into production without losing traceability, control, or the ability to recover from failure.**
+
+At AI-NOW, I have explored that responsibility through a GitHub Actions delivery pipeline for an Astro website: automated builds and generated-page checks, CI-gated deployment, commit verification, release manifests, SSH-based transfer, and a documented production activation and rollback process.
+
+The public workflows show the automation; the deployment runbook records a dated production verification baseline. The case study separates what can be inspected in the repository from what is documented about the server-side process.
+
+**Engineering lens:** GitHub Actions · CI/CD · Linux · Node.js · Release integrity · Deployment safety · Operational recovery
+
+> **The supporting principle:** Building software creates a result. Reliable delivery makes that result accountable.
+
+---
+
 ## For Engineering Managers and Technical Interviewers
 
 I am interested in engineering roles where firmware, electronics, testing, Linux, and system integration intersect—especially where reliability and clear technical reasoning matter.
@@ -115,6 +134,7 @@ If you are evaluating my work for a specific role, here is a faster route into t
 | Hardware/software test and validation | [DaVinci](https://github.com/johntsaiainow/davinciarduino2025) · [RetroFPGA-Basys3](https://github.com/retrofpga-computer-museum/RetroFPGA-Basys3) |
 | Connected embedded devices and AI | [ESP32 Local AI Chatbot](https://github.com/johntsaiainow/ESP32-Local-Ai-Chatbot) · [AI Chatbot PCB](https://github.com/johntsaiainow/AI-Now-Local-ESP32-Chatbots-PCB) |
 | FPGA and computer architecture | [RetroFPGA-Basys3](https://github.com/retrofpga-computer-museum/RetroFPGA-Basys3) · [SAP1-Basys3](https://github.com/johntsaiainow/SAP1-Basys3) |
+| CI/CD, production delivery, and release verification | [AI-NOW Engineering Case Study](case-studies/04-ai-now-reliable-delivery.md) · [GitHub Actions workflows](https://github.com/AI-Now-Inc/ai-now-web/tree/main/.github/workflows) |
 | Embedded Linux and development tools | [Raspberry Pi Agent MP3 Player](https://github.com/johntsaiainow/pi-agent-mp3-player) · [eZ8 Linux Native Toolchain](https://github.com/johnschoolworks/ez8-linux-native) |
 
 *Project links show public work, not claims of proprietary platform expertise, production certifications, or unverified performance metrics. Implementation maturity varies by repository.*
