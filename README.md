@@ -1,87 +1,120 @@
-# John Cheng-Hung Tsai
+# I Build Systems. I Preserve Knowledge. I Engineer What Comes Next.
 
-**Electrical Engineering · Embedded Firmware · Linux Systems · Hardware/Software Integration · Test Automation**
+### John Cheng-Hung Tsai
+**Electrical Engineering · Embedded Systems · Firmware · Linux · Computer Architecture · Engineering Education**
 
-I am a multidisciplinary engineer with more than 20 years of experience spanning IT, consumer electronics, manufacturing, and industrial embedded systems. My work connects physical hardware to firmware, operating systems, networking, automation, and practical validation. I also maintain open-source projects in FPGA computer architecture, electronics education, and software engineering.
-
-**For recruiters and hiring managers:** This page is a curated navigation guide to my engineering work across multiple GitHub accounts and organizations. Follow the links to inspect the projects most relevant to your role.
-
-## GitHub Portfolio Directory
-
-| GitHub home | Focus |
-| --- | --- |
-| [@johntsaiainow](https://github.com/johntsaiainow) | Embedded firmware, hardware/PCB design, Linux, AI interfaces, and engineering utilities |
-| [RetroFPGA Computer Museum](https://github.com/retrofpga-computer-museum) | FPGA-based reconstruction and preservation of historical computing architectures |
-| [@johnschoolworks](https://github.com/johnschoolworks) | Compilers/toolchains, interpreters, C# applications, and educational projects |
-| [This portfolio repository](https://github.com/johntsaiainow/johnchtsai) | Central directory and professional introduction |
-
-[Browse the John Schoolworks repository list](https://github.com/orgs/johnschoolworks/repositories)
-
-## Featured Engineering Projects
-
-### Embedded Firmware and Product Systems
-
-- **[DrinkStation DaVinci 20 Plus Controller Firmware](https://github.com/johntsaiainow/davinciarduino2025)** — Main controller firmware for a beverage dispensing system. Relevant to embedded control, product integration, and manufacturing environments.
-- **[AquaMesh Basic Bootloader Bridge](https://github.com/johntsaiainow/AquaMesh-Basic-Bootloader-Bridge)** — ESP32-to-STM32 firmware update bridge for AquaMesh / PRO2 devices.
-- **[ESP32 Local AI Chatbot](https://github.com/johntsaiainow/ESP32-Local-Ai-Chatbot)** — ESP32-based local AI chatbot project combining embedded interfaces and software components.
-- **[ESP32 Noto CJK OLED](https://github.com/johntsaiainow/esp32-noto-cjk-oled)** — Firmware and font-rendering engine for ESP32-S3 and SSD1306 OLED displays, supporting multilingual CJK glyphs.
-- **[CrowPanel MP3 Player](https://github.com/johntsaiainow/CrowPanel-MP3-Player)** — Embedded C media-player project.
-
-### Hardware and PCB Design
-
-- **[AI-Now Local ESP32 Chatbots PCB](https://github.com/johntsaiainow/AI-Now-Local-ESP32-Chatbots-PCB)** — A family of ESP32-based AI voice-terminal PCB designs.
-- **[ESP32 Communication Module PCB](https://github.com/johntsaiainow/ESP32-Communication-Module-PCB)** — Communication and control module for AquaMesh / DrinkStation embedded systems.
-- **[Small PCB Design Collection](https://github.com/johntsaiainow/small-pcb-design-collection)** — KiCad PCB designs, with manufacturing outputs for selected boards.
-- **[AI-Now PCB Templates](https://github.com/johntsaiainow/AI-Now-PCB-Templates)** — PCB-related templates and resources.
-
-### FPGA and Computer Architecture
-
-- **[RetroFPGA-Basys3](https://github.com/retrofpga-computer-museum/RetroFPGA-Basys3)** — SystemVerilog-based FPGA computer architecture work centered on the Digilent Basys 3.
-- **[SAP1-Basys3](https://github.com/johntsaiainow/SAP1-Basys3)** — Standalone SAP-1 computer project for Basys 3; repository describes calculator, radix conversion, VGA/PS2, and game-related features. Consult source and tests for implementation status.
-- **[RetroFPGA Computer Museum](https://github.com/retrofpga-computer-museum/RetroFPGA-Computer-Museum)** — The broader mission: preserving computing heritage through FPGA reconstruction and engineering education.
-
-### Linux, Toolchains, and Developer Systems
-
-- **[eZ8 Linux Native Toolchain](https://github.com/johnschoolworks/ez8-linux-native)** — Experimental Linux-native assembler, linker, and firmware toolchain for Zilog eZ8, with CLI and VS Code integration.
-- **[Raspberry Pi Agent MP3 Player](https://github.com/johntsaiainow/pi-agent-mp3-player)** — Raspberry Pi 3 embedded media-player project using a custom Yocto Linux distribution, Qt, and an AI-driven development workflow.
-- **[SPL TUI Logger](https://github.com/johntsaiainow/SPL-TUI-Logger)** — Linux terminal-based audio sound-level logging using PipeWire/ALSA interfaces.
-- **[Agent Pi Extensions and Skills](https://github.com/johntsaiainow/agentPiExtsSkills)** — TypeScript extensions and agent skills.
-
-### Software Engineering and Computer Science
-
-- **[Berkeley Scheme](https://github.com/johnschoolworks/berkeley-scheme)** — Scheme interpreter work, with C as the repository's indexed primary language.
-- **[SOSCSRPG MonoGame](https://github.com/johnschoolworks/SOSCSRPGMonoGame)** — C# / MonoGame RPG software engineering and tutorial project.
-- **[SuperAdventure MonoGame](https://github.com/johnschoolworks/SuperAdventureMonoGame)** — C# / MonoGame adaptation and application project.
-- **[Combat Cinderella Stardew Valley](https://github.com/johntsaiainow/Combat-Cinderella-Stardew-Valley)** — C# game-related creative software project.
-
-### Engineering Education and Knowledge Preservation
-
-- **[Mt. SAC Electronics 74](https://github.com/johntsaiainow/MtSAC-Electronics-74)** — Preservation of the original 2009 microcontroller programming laboratory manual for Mt. San Antonio College.
-- **[John Schoolworks](https://github.com/johnschoolworks)** — Educational software, interpreters, toolchains, and teaching-oriented projects.
-
-## Where to Start — By Role
-
-| If you are hiring for… | Suggested first projects |
-| --- | --- |
-| **Embedded / Firmware Engineer** | [DaVinci Controller](https://github.com/johntsaiainow/davinciarduino2025) · [AquaMesh Bootloader Bridge](https://github.com/johntsaiainow/AquaMesh-Basic-Bootloader-Bridge) · [ESP32 Local AI Chatbot](https://github.com/johntsaiainow/ESP32-Local-Ai-Chatbot) |
-| **Hardware Test / HIL / Validation Engineer** | [DaVinci Controller](https://github.com/johntsaiainow/davinciarduino2025) · [AquaMesh Bootloader Bridge](https://github.com/johntsaiainow/AquaMesh-Basic-Bootloader-Bridge) · [RetroFPGA Basys 3](https://github.com/retrofpga-computer-museum/RetroFPGA-Basys3) |
-| **Electrical / PCB Engineer** | [ESP32 Communication PCB](https://github.com/johntsaiainow/ESP32-Communication-Module-PCB) · [AI-Now ESP32 PCB](https://github.com/johntsaiainow/AI-Now-Local-ESP32-Chatbots-PCB) · [KiCad Collection](https://github.com/johntsaiainow/small-pcb-design-collection) |
-| **Embedded Linux / Systems Engineer** | [eZ8 Toolchain](https://github.com/johnschoolworks/ez8-linux-native) · [Pi MP3 Player](https://github.com/johntsaiainow/pi-agent-mp3-player) · [SPL Logger](https://github.com/johntsaiainow/SPL-TUI-Logger) |
-| **FPGA / Digital Design Engineer** | [RetroFPGA Basys 3](https://github.com/retrofpga-computer-museum/RetroFPGA-Basys3) · [SAP-1 Basys 3](https://github.com/johntsaiainow/SAP1-Basys3) |
-| **Software / Tools Engineer** | [Berkeley Scheme](https://github.com/johnschoolworks/berkeley-scheme) · [SOSCSRPG](https://github.com/johnschoolworks/SOSCSRPGMonoGame) · [Agent Pi](https://github.com/johntsaiainow/agentPiExtsSkills) |
-
-> **Portfolio note:** These links demonstrate related engineering interests and implementations. They do not, by themselves, establish professional experience with proprietary HIL platforms, specific aerospace standards, or completion of every roadmap feature. Please review each project's source, documentation, and tests for its current status.
-
-## Engineering Approach
-
-I value engineering that crosses boundaries: understanding the hardware, writing maintainable firmware, instrumenting the system, reproducing failures, automating validation, and documenting what others need to build on the work. I am committed to lifelong learning and to sharing technical knowledge through open-source projects and educational materials.
-
-## Contact
-
-- **GitHub:** [github.com/johntsaiainow](https://github.com/johntsaiainow)
-- **Portfolio:** [github.com/johntsaiainow/johnchtsai](https://github.com/johntsaiainow/johnchtsai)
-- **Email:** [john@johntsai.online](mailto:john@johntsai.online)
+> **A computer is never just a computer.** It begins as electricity moving through circuits. It becomes logic, firmware, an operating system, a network, a product, and eventually something that changes how people live. I have spent more than two decades working across those boundaries—and I am still learning what lies beyond them.
 
 ---
 
-*Engineering is not only about making systems work today; it is also about preserving the knowledge that makes tomorrow possible.*
+## The Engineer Behind the Code
+
+I did not build my career around a single programming language, processor, or job title.
+
+My work has crossed IT infrastructure, consumer electronics, manufacturing, industrial control, and embedded systems. I have worked where software meets sensors, where firmware meets physical machinery, and where an elegant design must survive the realities of deployment, diagnosis, and production.
+
+Over time, one conviction has become central to my work:
+
+**To engineer a system well, you must be willing to understand the layers beneath it—and the people who will depend on it.**
+
+That belief is why my GitHub is not one tidy collection of similar projects. It is a record of exploration: control firmware, circuit boards, Linux tools, AI-connected devices, computer architecture, interpreters, and teaching materials. Each project asks a different question. Together, they tell one story.
+
+## Chapter I — When Code Touches the Physical World
+
+A line of embedded code is not merely an instruction. It can switch a valve, read a sensor, control a machine, or determine whether a device recovers from failure.
+
+That is the world in which I have spent much of my engineering career: the boundary between electrical behavior and software decisions.
+
+- **[DaVinci Controller Firmware](https://github.com/johntsaiainow/davinciarduino2025)** — Embedded control work connected to the DrinkStation DaVinci beverage dispensing system.
+- **[AquaMesh Bootloader Bridge](https://github.com/johntsaiainow/AquaMesh-Basic-Bootloader-Bridge)** — An ESP32-to-STM32 firmware update bridge, addressing the practical problem of maintaining deployed embedded devices.
+- **[ESP32 Communication Module PCB](https://github.com/johntsaiainow/ESP32-Communication-Module-PCB)** — Hardware design for communication and control in embedded systems.
+- **[Small PCB Design Collection](https://github.com/johntsaiainow/small-pcb-design-collection)** — KiCad designs that carry ideas from schematics toward physical boards.
+
+**What this chapter demonstrates:** embedded C/C++, hardware/software integration, device communication, control systems, and the engineering discipline needed when software interacts with real hardware.
+
+## Chapter II — Giving Machines a Voice, and Engineers Better Tools
+
+The next generation of computing will not live only in data centers. It will also appear in small devices, workshops, laboratories, and everyday products. Making those systems useful requires more than attaching an AI label: it requires dependable hardware, interfaces, networking, and software infrastructure.
+
+- **[ESP32 Local AI Chatbot](https://github.com/johntsaiainow/ESP32-Local-Ai-Chatbot)** — Exploring local AI interaction through an embedded device.
+- **[AI-Now Local ESP32 Chatbots PCB](https://github.com/johntsaiainow/AI-Now-Local-ESP32-Chatbots-PCB)** — PCB designs for embedded AI voice-terminal concepts.
+- **[Raspberry Pi Agent MP3 Player](https://github.com/johntsaiainow/pi-agent-mp3-player)** — Embedded Linux, Yocto, Qt, and a development workflow involving AI agents.
+- **[eZ8 Linux Native Toolchain](https://github.com/johnschoolworks/ez8-linux-native)** — An experimental native Linux assembler, linker, and firmware tooling effort for Zilog eZ8.
+- **[SPL TUI Logger](https://github.com/johntsaiainow/SPL-TUI-Logger)** — A terminal-oriented Linux audio measurement and logging utility.
+
+I prefer tools that make engineering more accessible, reproducible, and inspectable. That is also why Linux and open development workflows appear throughout my work.
+
+## Chapter III — Rebuilding the Past to Understand the Future
+
+Modern computing can seem almost magical. But every abstraction has a history: registers, buses, instruction sets, memory maps, display timing, and the patient work of generations of engineers.
+
+I created the **[RetroFPGA Computer Museum](https://github.com/retrofpga-computer-museum)** around a simple idea:
+
+> **Rebuild the past. Understand the present. Inspire the future.**
+
+Instead of treating historic computers as objects behind glass, I want to explore how their architectures can be reconstructed, simulated, tested, and taught with FPGA technology.
+
+- **[RetroFPGA-Basys3](https://github.com/retrofpga-computer-museum/RetroFPGA-Basys3)** — A SystemVerilog learning and development project centered on the Digilent Basys 3 FPGA board.
+- **[SAP1-Basys3](https://github.com/johntsaiainow/SAP1-Basys3)** — A separate exploration of a simple computer architecture on FPGA.
+- **[RetroFPGA Computer Museum repository](https://github.com/retrofpga-computer-museum/RetroFPGA-Computer-Museum)** — The museum's broader educational and preservation mission.
+
+The work is ongoing. Some components are implemented and tested; other architectures and features remain on the roadmap. The point is not to claim a finished museum overnight. It is to build a foundation that can grow, be verified, and be understood by others.
+
+## Chapter IV — Knowledge Is Worth More When It Can Be Passed On
+
+I believe engineering education should outlive the classroom in which it began.
+
+That is why I preserve and share teaching materials, build interpreters and software projects, and continue studying even after decades in industry. Learning is not a phase before a career; for me, it is part of the career itself.
+
+- **[Mt. SAC Electronics 74](https://github.com/johntsaiainow/MtSAC-Electronics-74)** — Preserving a microcontroller programming laboratory manual as a resource for future learners.
+- **[Berkeley Scheme](https://github.com/johnschoolworks/berkeley-scheme)** — Exploring language implementation through interpreters and core computer science concepts.
+- **[SOSCSRPG MonoGame](https://github.com/johnschoolworks/SOSCSRPGMonoGame)** and **[SuperAdventure MonoGame](https://github.com/johnschoolworks/SuperAdventureMonoGame)** — Software engineering and learning through C# game development.
+- **[John Schoolworks](https://github.com/johnschoolworks)** — A home for educational code, experiments, and software projects.
+
+There is a particular kind of satisfaction in making a system work. There is another in documenting it clearly enough that someone else can learn from it, challenge it, or carry it further.
+
+## Chapter V — The Work Ahead
+
+I am interested in engineering problems that demand more than a narrow specialization: embedded firmware, hardware validation, automated test systems, Linux platforms, electronics, and complex system integration.
+
+I bring a systems perspective shaped by more than twenty years across multiple industries, and a habit of returning to fundamentals when problems become difficult. I care about understanding failures, building tools that reveal what a system is actually doing, and connecting design decisions to physical results.
+
+I am especially drawn to work where **reliability matters, learning never stops, and engineering serves a purpose beyond the next release.**
+
+### If You're Evaluating My Work
+
+Rather than reading every repository, start with the chapter closest to your engineering challenge:
+
+| Your focus | Start here |
+| --- | --- |
+| **Firmware / Embedded Systems** | [DaVinci](https://github.com/johntsaiainow/davinciarduino2025) · [AquaMesh](https://github.com/johntsaiainow/AquaMesh-Basic-Bootloader-Bridge) |
+| **Hardware Test / Validation** | [DaVinci](https://github.com/johntsaiainow/davinciarduino2025) · [AquaMesh](https://github.com/johntsaiainow/AquaMesh-Basic-Bootloader-Bridge) · [RetroFPGA](https://github.com/retrofpga-computer-museum/RetroFPGA-Basys3) |
+| **Electrical / PCB Design** | [ESP32 Communication PCB](https://github.com/johntsaiainow/ESP32-Communication-Module-PCB) · [PCB Collection](https://github.com/johntsaiainow/small-pcb-design-collection) |
+| **Linux / Developer Tooling** | [eZ8 Toolchain](https://github.com/johnschoolworks/ez8-linux-native) · [Raspberry Pi Agent](https://github.com/johntsaiainow/pi-agent-mp3-player) |
+| **FPGA / Computer Architecture** | [RetroFPGA-Basys3](https://github.com/retrofpga-computer-museum/RetroFPGA-Basys3) · [SAP1-Basys3](https://github.com/johntsaiainow/SAP1-Basys3) |
+| **Software / Computer Science** | [Berkeley Scheme](https://github.com/johnschoolworks/berkeley-scheme) · [SOSCSRPG](https://github.com/johnschoolworks/SOSCSRPGMonoGame) |
+
+*These are project entry points, not claims of experience with particular proprietary HIL tools or aerospace certifications. For current implementation status, please inspect the individual repositories, source files, and tests.*
+
+## Four Doors Into One Engineering Journey
+
+**[Professional & Applied Engineering — johntsaiainow](https://github.com/johntsaiainow)**  
+Firmware, electronics, PCB design, embedded Linux, AI devices, and practical engineering tools.
+
+**[RetroFPGA Computer Museum](https://github.com/retrofpga-computer-museum)**  
+Computer architecture, FPGA reconstruction, digital logic, and preservation of computing history.
+
+**[John Schoolworks](https://github.com/johnschoolworks)** · **[Browse all repositories](https://github.com/orgs/johnschoolworks/repositories)**  
+Compilers, interpreters, software development, and educational projects.
+
+**[This Portfolio — johnchtsai](https://github.com/johntsaiainow/johnchtsai)**  
+The starting point for the whole journey.
+
+---
+
+### Let's Build Something That Matters
+
+**John Cheng-Hung Tsai**  
+[GitHub](https://github.com/johntsaiainow) · [Email](mailto:john@johntsai.online)
+
+> *Technology moves forward. Knowledge should not be left behind.*
